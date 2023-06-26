@@ -5,66 +5,61 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PCC - College of Law</title>
+    <link rel="icon" href="img/logo/favicon.ico">
     <link rel="stylesheet" href="dist/css/bootstrap.css">
     <link rel="stylesheet" href="dist/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
-    <section class="section-nav">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-            <div class="container-fluid d-flex">
-                <div class="zoom p-2 flex-grow-1"><a class="navbar-brand" href="./">
-                        <img src="img/navbar/pcc_logo2.png" alt="pcc-logo" class="imgNavbarLogo">
-                        Pagadian Capitol College
-                    </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse justify-content-md-center collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item  p-2 zoom">
-                                <a class="nav-link active" area-current="page" href="./">Home</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="about-us">About us</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="programs">Programs</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="faculty">Faculty</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="admissions">Admissions</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="events">Events</a>
-                            </li>
-                            <li class="nav-item p-2 zoom">
-                                <a class="nav-link" href="resources">Resources</a>
-                            </li>
-                        </ul>
-
-                        <ul class="navbar-nav action">
-                            <li class="nav-item p-2">
-                                <a href="contact" class="btn ml-lg-auto btn-bordered-white"><i
-                                        class="fas fa-paper-plane contact-icon mr-md-2"></i>Contact Us</a>
-                            </li>
-                        </ul>
+    <header class="section-nav">
+        <section class="section-nav">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-bg p-0">
+                <div class="container-fluid d-flex">
+                    <div class="zoom p-2"><a class="navbar-brand" href="./">
+                            <img src="img/navbar/navbarlogo.png">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span><i class="fa fa-bars"></i></span>
+                    </button>
+                    <div class="navbar-collapse justify-content-md-center collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item p-2 zoom nav-item-clr">
+                                    <a class="nav-link active" area-current="page" href="./"><span
+                                            class="fnt-clr">Home</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="about-us"><span class="fnt-clr">About us</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="programs"><span class="fnt-clr">Programs</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="faculty"><span class="fnt-clr">Faculty</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="admissions"><span class="fnt-clr">Admissions</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="events"><span class="fnt-clr">Events</span></a>
+                                </li>
+                                <li class="nav-item p-2 zoom">
+                                    <a class="nav-link" href="resources"><span class="fnt-clr">Resources</span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </section>
+            </nav>
+        </section>
+    </header>
 
-    <section>
+    <section class="section-carousel">
         <div id="pcc-carousel" class="carousel slide" data-bs-ride="carousel">
-
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -98,7 +93,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <button class="carousel-control-prev" type="button" data-bs-target="#pcc-carousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -110,10 +105,84 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section ptb_100">
         <div class="container">
             <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 res-margin">
+                    <div class="single-about color-1 bg-hover hover-bottom text-center p-3">
+                        <div class="res-margin">
+                            <h3>ADMISSION</h3>
+                        </div>
+                        <div class="res-margin">
+                            <p> The process of getting into Pagadian City College - College of Law is designed to ensure that qualified and motivated individuals have the opportunity to pursue their legal education.</p>
+                            <a class="readmore-btn mt-3 color-1" href="admissiondetails">READ MORE</a> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 res-margin">
+                    <div class="single-about color-1 bg-hover hover-bottom text-center p-3">
+                        <div class="res-margin">
+                            <h3>SCHOLARSHIP</h3>
+                        </div>
+                        <div class="res-margin">
+                            <p>PCC - College of Law offers various scholarships and financial aid opportunities to support students in their pursuit of a legal education.</p>
+                            <a class="readmore-btn mt-3 color-1" href="scholarshipdetails">READ MORE</a> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 res-margin">
+                    <div class="single-about color-1 bg-hover hover-bottom text-center p-3">
+                        <div class="res-margin">
+                            <h3>ACADEMIC PROGRAMS</h3>
+                        </div>
+                        <div class="res-margin">
+                            <p>PCC - College of Law offers a range of academic programs designed to equip students with the knowledge, skills, and ethical foundation necessary for a successful legal career. </p>
+                            <a class="readmore-btn mt-3 color-1" href="academicdetails">READ MORE</a> <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="section cta-area ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-10">
+                    <div class="section-heading text-center m-0">
+                        <h2 class="text-white">The College of Law at Pagadian City College has a rich history and a strong reputation for providing quality legal education in the region.</h2>
+                        <p class="text-white d-none d-sm-block mt-4">Here is an overview of our college, highlighting its history, accreditation, affiliations, notable achievements, and distinguishing factors.</p>
+                        <a href="aboutusdetails" class="btn btn-bordered-white mt-4"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg> Explore PCC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section courses-area bg-grey ptb_150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <div class="section-heading text-center">
+                        <h2 class="text-blue">ACADEMIC PROGRAMS</h2>
+                        <p class="d-none d-sm-block mt-4">Slides play here...</p>
+                        <a href="academicprograms" class="btn btn-bordered-blue mt-4">Choose your programs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section overview-hidden ptb_100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <div class="section-heading text-center">
+                        <h2 class="text-grey">SET APPOINTMENT DATE</h2>
+                        <p class="d-none d-sm-block mt-4">To set an appointment online with PCC - College of Law, you may click the button below.</p>
+                        <a href="setappdate" class="btn btn-bordered-grey text-grey">Choose Date</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -125,8 +194,7 @@
                     <img src="img/navbar/pcc_logo2.png" alt="pcc-logo" class="imgFooterLogo">
                 </a>
                 <span class="mb-3 mb-md-0 text-body-secondary">&copy;
-                    <script>document.write(new Date().getFullYear());</script> Pagadian Capitol College - College of
-                    Law.
+                    <script>document.write(new Date().getFullYear());</script> PCC - College of Law.
                 </span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
