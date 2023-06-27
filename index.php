@@ -219,13 +219,10 @@
         <div class="row justify-content-center">
             <div class="column1">
                 <div class="col-11">
-                    <div class="text-center">
-                        <h2 class="text-white">INQUIRE NOW</h2>
-                        <p class="text-white">We'd love to hear from you</p>
-                    </div>
                     <div class="contact-us">
                         <ul>
                             <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3">
+                                <h1 class="text-white">Have a question? </br>Call us now</h1>
                                 <span><svg xmlns="http://www.w3.org/2000/svg" height="2em"
                                         viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                         <path
@@ -234,6 +231,7 @@
                                 <h3 class="text-white d-block d-sm-block my-2">+639204050015</h3>
                             </li>
                             <li class="contact-info color-2 bg-hover active hover-bottom text-center p-5 m-3">
+                                <h1 class="text-white">Drop us an email</h1>
                                 <span><svg xmlns="http://www.w3.org/2000/svg" height="2em"
                                         viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
                                         <path
@@ -246,8 +244,27 @@
                 </div>
             </div>
             <div class="column2">
-                <h2>Column 2</h2>
-                <p>Details</p>
+                <div class="col-11">
+                    <div class="text-center">
+                        <h2 class="text-grey">INQUIRE NOW</h2>
+                        <p class="text-grey">We'd love to hear from you</p>
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Firstname" required>
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Lastname" required>
+                    </div>
+                    <div class="mb-2">
+                        <input type="email" class="form-control" placeholder="Email address" required>
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" class="form-control" placeholder="Subject" required>
+                    </div>
+                    <div class="mb-2">
+                    <textarea class="form-control" rows="3" placeholder="Message" required></textarea>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

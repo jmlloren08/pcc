@@ -2124,6 +2124,7 @@ progress {
   appearance: none;
   border-radius: var(--bs-border-radius);
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-color: #86b7fe;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
