@@ -208,10 +208,6 @@ section,
     transform-origin: left;
 }
 
-.navbar-bg {
-    background-color: rgba(0, 0, 139, 0.741);
-}
-
 .bg-hover {
     position: relative;
 }
@@ -507,7 +503,7 @@ section,
 
 .fnt-clr {
     color: whitesmoke;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .cta-area {

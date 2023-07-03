@@ -17,7 +17,7 @@
 <body>
     <header class="section-nav">
         <section class="section-nav">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark px-5 py-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-5 py-2">
                 <div class="container-fluid d-flex">
                     <div class="zoom"><a class="navbar-brand" href="./">
                             <img src="img/navbar/navbarlogo.png">
@@ -31,7 +31,7 @@
                     <div class="navbar-collapse justify-content-md-center collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <ul class="navbar-nav">
-                                <li class="nav-item p-2 zoom nav-item-clr">
+                                <li class="nav-item p-2 zoom">
                                     <a class="nav-link active" area-current="page" href="./"><span
                                             class="fnt-clr">Home</span></a>
                                 </li>
