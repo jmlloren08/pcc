@@ -7,8 +7,11 @@
     <title>PCC - College of Law</title>
     <link rel="icon" href="img/logo/favicon.ico">
     <link rel="stylesheet" href="dist/css/bootstrap.css">
-    <link rel="stylesheet" href="dist/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -61,13 +64,18 @@
     <section class="section-carousel">
         <div id="pcc-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
             </div>
 
             <div class="carousel-inner">
+
                 <div class="carousel-item active c-item">
                     <img src="img/slider/Slide_1.jpg" class="imgCarousel d-block w-100" alt="Slide 1">
                     <div class="carousel-caption d-none d-md-block">
@@ -76,22 +84,63 @@
                             Taking the Lead in Providing Quality Education</p>
                     </div>
                 </div>
+
                 <div class="carousel-item c-item">
                     <img src="img/slider/Slide_2.jpg" class="imgCarousel d-block w-100" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Pagadian Capitol College</h5>
-                        <p>Enjoy a Top-Notch Education
-                            Taking the Lead in Providing Quality Education</p>
+                        <p>Offers a range of academic programs designed to equip students with the knowledge, skills, and ethical foundation necessary for a successful legal career</p>
                     </div>
                 </div>
+
                 <div class="carousel-item c-item">
                     <img src="img/slider/Slide_3.jpg" class="imgCarousel d-block w-100" alt="Slide 3">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Pagadian Capitol College</h5>
-                        <p>Enjoy a Top-Notch Education
-                            Taking the Lead in Providing Quality Education</p>
+                        <p>Specialized programs that focus on specific areas of law or legal practice</p>
                     </div>
                 </div>
+
+                <div class="carousel-item c-item">
+                    <img src="img/building/building-1.png" class="imgCarousel d-block w-100" alt="Slide 4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Pagadian Capitol College grounds</h5>
+                        <p>Provide continuing legal education programs for practicing attorneys, allowing them to update their knowledge, learn about recent developments in the law, and fulfill their professional development requirements</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item c-item">
+                    <img src="img/building/building-2.png" class="imgCarousel d-block w-100" alt="Slide 5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Law School Building</h5>
+                        <p>The proposed Law School Building has four spacious (4) classrooms, a library, moot court facility, Dean's office, and facultty room</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item c-item">
+                    <img src="img/building/building-3.png" class="imgCarousel d-block w-100" alt="Slide 6">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Law School Library</h5>
+                        <p>Essential resource for students studying law, providing access to a wide range of legal materials and resources to support their academic and research needs</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item c-item">
+                    <img src="img/building/building-4.png" class="imgCarousel d-block w-100" alt="Slide 7">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Legal Resources</h5>
+                        <p>An extensive collection of legal resources, including textbooks, law reports, legal journals, statutes, regulations, case law, legal encyclopedias, treatises, and legal databases</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item c-item">
+                    <img src="img/building/building-5.png" class="imgCarousel d-block w-100" alt="Slide 8">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Study Spaces</h5>
+                        <p>Offer dedicated study spaces where students can work individually or in groups</p>
+                    </div>
+                </div>
+
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#pcc-carousel" data-bs-slide="prev">
@@ -186,18 +235,66 @@
         </div>
     </section>
 
-    <section class="section courses-area bg-grey ptb_150">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-10 col-lg-7">
-                    <div class="section-heading text-center">
-                        <h2 class="text-blue">ACADEMIC PROGRAMS</h2>
-                        <p class="d-sm-block">Slides play here...</p>
-                        <a href="academicprograms" class="btn btn-bordered-blue">Choose your programs</a>
+    <section class="section_courses ptb_100">
+
+        <div class="swiper mySwiper container m-0">
+
+            <div class="text-center p-3 m-0">
+                <h2 class="text-blue">ACADEMIC PROGRAMS</h2>
+            </div>
+
+            <div class="swiper-wrapper content">
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bslaw.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bslaws"><span class="text-white">BACHELOR OF LAWS</span></a></div>
                     </div>
                 </div>
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bsaccount.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF SCIENCE IN ACCOUNTANCY</span></a></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bscrim.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF SCIENCE IN CRIMINOLOGY</span></a></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bsbusinessad.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bsbusinessad"><span class="text-white">B.S. IN BUSINESS ADMINISTRATION</span></a></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bsed.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bsed"><span class="text-white">B.S. IN ELEMENTARY EDUCATION</span></a></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card-courses">
+                    <div class="img_box">
+                        <img src="img/courses/bsit.jpeg" alt="">
+                        <div class="hover-title text-center"><a href="bsit"><span class="text-white">B.S. IN INFORMATION TECHNOLOGY</span></a></div>
+                    </div>
+                </div>
+
             </div>
+
+            <div class="p-3">
+                <div class="swiper-pagination"></div>
+            </div>
+
         </div>
+
     </section>
 
     <section class="section overview-hidden ptb_100">
@@ -216,56 +313,231 @@
     </section>
 
     <section class="section">
-        <div class="row justify-content-center">
-            <div class="column1">
-                <div class="col-11">
+        <div class="cntnr">
+            <div class="box-1">
+                <div class="col-12">
                     <div class="contact-us">
                         <ul>
                             <li class="contact-info color-1 bg-hover active hover-bottom text-center p-5 m-3">
-                                <h1 class="text-white">Have a question? </br>Call us now</h1>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" height="2em"
-                                        viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                        <path
-                                            d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64H80V384H304V64z" />
-                                    </svg></span>
+                                <h1 class="text-white">Have a question? Call us now!</h1>
+                                <span><i class="fa-solid fa-mobile-screen-button fa-2xl"
+                                        style="color: #ffffff;"></i></span>
                                 <h3 class="text-white d-block d-sm-block my-2">+639204050015</h3>
                             </li>
                             <li class="contact-info color-2 bg-hover active hover-bottom text-center p-5 m-3">
                                 <h1 class="text-white">Drop us an email</h1>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" height="2em"
-                                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                                        <path
-                                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
-                                    </svg></span>
-                                <h3 class="text-white d-block d-sm-block my-2">pcclaw@gmail.com</h3>
+                                <span><i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i></span>
+                                <h3 class="text-white d-block d-sm-block my-1">pcclaw@gmail.com</h3>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="column2">
-                <div class="col-11">
-                    <div class="text-center">
-                        <h2 class="text-grey">INQUIRE NOW</h2>
-                        <p class="text-grey">We'd love to hear from you</p>
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" class="form-control" placeholder="Firstname" required>
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" class="form-control" placeholder="Lastname" required>
-                    </div>
-                    <div class="mb-2">
-                        <input type="email" class="form-control" placeholder="Email address" required>
-                    </div>
-                    <div class="mb-2">
-                        <input type="text" class="form-control" placeholder="Subject" required>
-                    </div>
-                    <div class="mb-2">
-                    <textarea class="form-control" rows="3" placeholder="Message" required></textarea>
+            <div class="box-2">
+                <div class="col-12">
+                    <div class="inquire-now">
+                        <div class="text-center">
+                            <h2 class="text-grey">INQUIRE NOW</h2>
+                            <p class="text-grey">We'd love to hear from you</p>
+                        </div>
+                        <form action="" method="POST">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Firstname" required>
+                            </div>
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Lastname" required>
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" placeholder="Email address" required>
+                            </div>
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="mb-2">
+                                <textarea class="form-control" rows="3" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="mb-2">
+                                <button class="btn btn-bordered-grey active"><svg xmlns="http://www.w3.org/2000/svg"
+                                        height="1em"
+                                        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                        <path
+                                            d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z" />
+                                    </svg> Send message</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="section_faculty ptb_100">
+
+        <div class="swiper mySwiper container m-0">
+
+            <div class="text-center p-3 m-0">
+                <h2 class="text-blue">DEAN AND FACULTY MEMBERS</h2>
+            </div>
+
+            <div class="swiper-wrapper content">
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/attyken.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">ATTY. KENNY C. SABELLANO, RN., LL.M.</span>
+                            <span class="profession">Full time Private Law Practitioner</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/attyrom.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">ATTY. ROMYLYN ORQUILLAS-REGIDOR, CPA, LL.M.</span>
+                            <span class="profession">Provincial Director/Bureau of Treasury/ZDS Office</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/prosrey.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">PROS. REY TORREYCAMPO, LL.M</span>
+                            <span class="profession">Associate Prosecutor</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/prosomar.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">PROS. OMAR LOUIE SEBASTIAN, LL.M.</span>
+                            <span class="profession">State Prosecutor</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/attylhem.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">ATTY. LHEM J. NAVAL, LL.M.</span>
+                            <span class="profession">Currently pursuing Doctor of Juridical Science degree</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/attybella.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">ATTY. BELLATRIX LEGASPI-FRANCISCO, LL.M.</span>
+                            <span class="profession">Currently pursuing Doctor of Juridical Science degree</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/attyshayne.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">ATTY. SHAYNE BANCE-ABGRIGANA, LL.M.</span>
+                            <span class="profession">Master of Laws (Commercial Law Track)</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="img/faculty/as.jpg" alt="">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </div>
+                        <div class="name-profession">
+                            <span class="name">PROS. LORY JEAN D. SEBASTIAN</span>
+                            <span class="profession">State Prosecutor</span>
+                        </div>
+                        <div class="button">
+                            <button class="aboutMe">About me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-3">
+                <div class="swiper-pagination"></div>
+            </div>
+
         </div>
     </section>
 
@@ -281,36 +553,21 @@
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
-                    <a href="twitter.com/pcc-law" class="text-body-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
-                        </svg>
-                    </a>
+                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-twitter"></i></a>
                 </li>
                 <li class="ms-3">
-                    <a href="instagram.com/pcc-law" class="text-body-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-                        </svg>
-                    </a>
+                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-instagram"></i></a>
                 </li>
                 <li class="ms-3">
-                    <a href="facebook.com/pcc-law" class="text-body-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="1em"
-                            viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                            <path
-                                d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
-                        </svg>
-                    </a>
+                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-facebook"></i></a>
                 </li>
             </ul>
         </footer>
     </div>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="dist/js/swiper.js"></script>
     <script src="dist/js/plugins.min.js"></script>
     <script src="dist/js/bootstrap.bundle.js"></script>
 
