@@ -64,7 +64,8 @@
     <section class="section-carousel">
         <div id="pcc-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#pcc-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -89,7 +90,8 @@
                     <img src="img/slider/Slide_2.jpg" class="imgCarousel d-block w-100" alt="Slide 2">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Pagadian Capitol College</h5>
-                        <p>Offers a range of academic programs designed to equip students with the knowledge, skills, and ethical foundation necessary for a successful legal career</p>
+                        <p>Offers a range of academic programs designed to equip students with the knowledge, skills,
+                            and ethical foundation necessary for a successful legal career</p>
                     </div>
                 </div>
 
@@ -105,7 +107,9 @@
                     <img src="img/building/building-1.png" class="imgCarousel d-block w-100" alt="Slide 4">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Pagadian Capitol College grounds</h5>
-                        <p>Provide continuing legal education programs for practicing attorneys, allowing them to update their knowledge, learn about recent developments in the law, and fulfill their professional development requirements</p>
+                        <p>Provide continuing legal education programs for practicing attorneys, allowing them to update
+                            their knowledge, learn about recent developments in the law, and fulfill their professional
+                            development requirements</p>
                     </div>
                 </div>
 
@@ -113,7 +117,8 @@
                     <img src="img/building/building-2.png" class="imgCarousel d-block w-100" alt="Slide 5">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Law School Building</h5>
-                        <p>The proposed Law School Building has four spacious (4) classrooms, a library, moot court facility, Dean's office, and facultty room</p>
+                        <p>The proposed Law School Building has four spacious (4) classrooms, a library, moot court
+                            facility, Dean's office, and facultty room</p>
                     </div>
                 </div>
 
@@ -121,7 +126,8 @@
                     <img src="img/building/building-3.png" class="imgCarousel d-block w-100" alt="Slide 6">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Law School Library</h5>
-                        <p>Essential resource for students studying law, providing access to a wide range of legal materials and resources to support their academic and research needs</p>
+                        <p>Essential resource for students studying law, providing access to a wide range of legal
+                            materials and resources to support their academic and research needs</p>
                     </div>
                 </div>
 
@@ -129,7 +135,8 @@
                     <img src="img/building/building-4.png" class="imgCarousel d-block w-100" alt="Slide 7">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Legal Resources</h5>
-                        <p>An extensive collection of legal resources, including textbooks, law reports, legal journals, statutes, regulations, case law, legal encyclopedias, treatises, and legal databases</p>
+                        <p>An extensive collection of legal resources, including textbooks, law reports, legal journals,
+                            statutes, regulations, case law, legal encyclopedias, treatises, and legal databases</p>
                     </div>
                 </div>
 
@@ -248,42 +255,48 @@
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bslaw.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bslaws"><span class="text-white">BACHELOR OF LAWS</span></a></div>
+                        <div class="hover-title text-center"><a href="bslaws"><span class="text-white">BACHELOR OF
+                                    LAWS</span></a></div>
                     </div>
                 </div>
 
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bsaccount.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF SCIENCE IN ACCOUNTANCY</span></a></div>
+                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF
+                                    SCIENCE IN ACCOUNTANCY</span></a></div>
                     </div>
                 </div>
 
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bscrim.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF SCIENCE IN CRIMINOLOGY</span></a></div>
+                        <div class="hover-title text-center"><a href="bsaccountant"><span class="text-white">BACHELOR OF
+                                    SCIENCE IN CRIMINOLOGY</span></a></div>
                     </div>
                 </div>
 
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bsbusinessad.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bsbusinessad"><span class="text-white">B.S. IN BUSINESS ADMINISTRATION</span></a></div>
+                        <div class="hover-title text-center"><a href="bsbusinessad"><span class="text-white">B.S. IN
+                                    BUSINESS ADMINISTRATION</span></a></div>
                     </div>
                 </div>
 
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bsed.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bsed"><span class="text-white">B.S. IN ELEMENTARY EDUCATION</span></a></div>
+                        <div class="hover-title text-center"><a href="bsed"><span class="text-white">B.S. IN ELEMENTARY
+                                    EDUCATION</span></a></div>
                     </div>
                 </div>
 
                 <div class="swiper-slide card-courses">
                     <div class="img_box">
                         <img src="img/courses/bsit.jpeg" alt="">
-                        <div class="hover-title text-center"><a href="bsit"><span class="text-white">B.S. IN INFORMATION TECHNOLOGY</span></a></div>
+                        <div class="hover-title text-center"><a href="bsit"><span class="text-white">B.S. IN INFORMATION
+                                    TECHNOLOGY</span></a></div>
                     </div>
                 </div>
 
@@ -570,6 +583,21 @@
     <script src="dist/js/swiper.js"></script>
     <script src="dist/js/plugins.min.js"></script>
     <script src="dist/js/bootstrap.bundle.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll > 300) {
+                    $(".navbar").css("background", "bg-light");
+                }
+
+                else {
+                    $(".navbar").css("background", "bg-dark");
+                }
+            })
+        })
+    </script>
 
 </body>
 
