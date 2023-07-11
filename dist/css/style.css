@@ -620,6 +620,7 @@ h1 {
         flex-direction: column;
         height: 900px;
     }
+
     .inquire-now {
         margin-bottom: 20px !important;
     }
@@ -667,7 +668,7 @@ h1 {
 .card {
     position: relative;
     background: #fff;
-    border-radius: 20px;  
+    border-radius: 20px;
     margin: 20px 0;
     width: 280px;
 }
@@ -764,7 +765,7 @@ h1 {
 .card-courses {
     position: relative;
     background: #fff;
-    border-radius: 12px;  
+    border-radius: 12px;
     margin: 20px 0;
     width: 280px;
 }
@@ -811,7 +812,7 @@ h1 {
     align-items: center;
     font-size: medium;
     font-weight: 700;
-    
+
 }
 
 .hover-title {
@@ -840,3 +841,97 @@ h1 {
 .img_box:hover .hover-title a:active {
     text-decoration: none;
 }
+
+.footer-area .social-icons a {
+    font-size: 22px;
+}
+
+.dark .footer-area .copyright-area {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.blog .footer-area {
+    background: #191919;
+}
+
+.blog .footer-area .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .footer-items {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .footer-items {
+        margin-bottom: 30px;
+    }
+
+    .footer-area .col-12:last-of-type .footer-items {
+        margin-bottom: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-area {
+    background-color: #031633;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+

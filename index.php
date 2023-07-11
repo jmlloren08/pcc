@@ -17,17 +17,24 @@
 <body>
     <header class="section-nav">
         <section class="section-nav">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top px-5 py-2">
+            <nav class="navbar navbar-expand-lg fixed-top px-5 py-2">
                 <div class="container-fluid d-flex">
                     <div class="zoom"><a class="navbar-brand" href="./">
                             <img src="img/navbar/navbarlogo.png">
                         </a>
                     </div>
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
-                        <span><i class="fa fa-bars"></i></span>
+
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+
                     </button>
+
                     <div class="navbar-collapse justify-content-md-center collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <ul class="navbar-nav">
@@ -36,22 +43,22 @@
                                             class="fnt-clr">Home</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="about-us"><span class="fnt-clr">About us</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">About us</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="programs"><span class="fnt-clr">Programs</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">Programs</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="faculty"><span class="fnt-clr">Faculty</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">Faculty</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="admissions"><span class="fnt-clr">Admissions</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">Admissions</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="events"><span class="fnt-clr">Events</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">Events</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="resources"><span class="fnt-clr">Resources</span></a>
+                                    <a class="nav-link" href="#"><span class="fnt-clr">Resources</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -170,7 +177,7 @@
                             <h3>ADMISSION</h3>
                         </div>
                         <div class="res-margin">
-                            <p> The process of getting into Pagadian City College - College of Law is designed to ensure
+                            <p> The process of getting into PCC - College of Law is designed to ensure
                                 that qualified and motivated individuals have the opportunity to pursue their legal
                                 education.</p>
                             <a class="readmore-btn mt-3 color-1" href="admissiondetails">READ MORE</a> <svg
@@ -226,7 +233,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-lg-10">
                     <div class="section-heading text-center m-0">
-                        <h2 class="text-white">The College of Law at Pagadian City College has a rich history and a
+                        <h2 class="text-white">The College of Law at Pagadian Capitol College has a rich history and a
                             strong reputation for providing quality legal education in the region.</h2>
                         <p class="text-white d-sm-block">Here is an overview of our college, highlighting its history,
                             accreditation, affiliations, notable achievements, and distinguishing factors.</p>
@@ -554,50 +561,93 @@
         </div>
     </section>
 
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="./" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <img src="img/navbar/pcc_logo2.png" alt="pcc-logo" class="imgFooterLogo">
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy;
-                    <script>document.write(new Date().getFullYear());</script> PCC - College of Law.
-                </span>
+    <footer class="section footer-area">
+        <!-- Footer Top -->
+        <div class="footer-top ptb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <!-- Footer Items -->
+                        <div class="footer-items">
+                            <!-- Footer Title -->
+                            <h3 class="footer-title text-uppercase mb-2">About Us</h3>
+                            <p class="mb-2 text-white-50">Together, let us embark on a transformative journey that will
+                                shape your
+                                future as a legal professional.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <!-- Footer Items -->
+                        <div class="footer-items">
+                            <!-- Footer Title -->
+                            <h3 class="footer-title text-uppercase mb-2">Courses Offered</h3>
+                            <ul style="list-style-type:none;">
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Laws</a></li>
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Science in
+                                        Accountancy</a></li>
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Science in
+                                        Criminology</a></li>
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Science in
+                                        Administration</a></li>
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Science in Elementary
+                                        Education</a></li>
+                                <li class='py-2'><a class='text-white-50' href='#'>Bachelor of Science in Information
+                                        Technology</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <!-- Footer Items -->
+                        <div class="footer-items">
+                            <!-- Footer Title -->
+                            <h3 class="footer-title text-uppercase mb-2">Follow Us</h3>
+                            <p class="mb-2 text-white-50">To stay updated on the latest news, updates, and insights from
+                                Pagadian Capitol
+                                College - College of Law, you can follow us on our social media channels.</p>
+                            <!-- Social Icons -->
+                            <ul class="social-icons list-inline pt-2">
+                                <li class='list-inline-item'><a href='#'><i class='fa-brands fa-facebook'></i></a>
+                                </li>
+                                <li class='list-inline-item'><a href='#'><i class='fa-brands fa-twitter'></i></a>
+                                </li>
+                                <li class='list-inline-item'><a href='#'><i class='fa-brands fa-instagram'></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3">
-                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li class="ms-3">
-                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li class="ms-3">
-                    <a href="twitter.com/pcc-law" class="text-body-secondary"><i class="fa-brands fa-facebook"></i></a>
-                </li>
-            </ul>
-        </footer>
-    </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-bottom bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Copyright Area -->
+                        <div
+                            class="copyright-area d-flex flex-wrap justify-content-center justify-content-sm-between text-center py-0">
+                            <!-- Copyright Left -->
+
+                            <div class="copyright-left"><a href="#"><img src="img/navbar/pcc_logo2.png" alt="pcc-logo"
+                                        class="imgFooterLogo"></a>
+                                <script>document.write(new Date().getFullYear());</script> Pagadian Capitol College -
+                                College of Law
+                            </div>
+                            <!-- Copyright Right -->
+                            <div class="copyright-right"><a>All Rights Reserved.</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="dist/js/swiper.js"></script>
-    <script src="dist/js/plugins.min.js"></script>
     <script src="dist/js/bootstrap.bundle.js"></script>
-
-    <script>
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var scroll = $(window).scrollTop();
-                if (scroll > 300) {
-                    $(".navbar").css("background", "bg-light");
-                }
-
-                else {
-                    $(".navbar").css("background", "bg-dark");
-                }
-            })
-        })
-    </script>
 
 </body>
 
