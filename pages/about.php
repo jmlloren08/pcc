@@ -20,7 +20,7 @@
         <section class="section-nav">
             <nav class="navbar navbar-expand-lg fixed-top px-5 py-2">
                 <div class="container-fluid d-flex">
-                    <div class="zoom"><a class="navbar-brand" href="./">
+                    <div class="zoom"><a class="navbar-brand" href="../">
                             <img src="../img/navbar/navbarlogo.png">
                         </a>
                     </div>
@@ -70,8 +70,23 @@
         </section>
     </header>
 
-
-    <?php include "../sections/whoweare.php"; ?>
+    <section class="section breadcrumb-area overlay-dark d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumb-content d-flex flex-column align-items-center text-center">
+                        <h2 class="text-white text-uppercase mb-3">Who We Are</h2>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="../" class="text-uppercase text-white active">Home</a>
+                            </li>
+                            <li class="breadcrumb-item text-white active">About Us</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="about-section section-padding about-2">
         <div class="container">
@@ -126,7 +141,7 @@
                     <div class="section-heading">
                         <h3>Accreditation</h3>
                     </div>
-                    <p>The College of Law at Pagadian City College is recognized and accredited by the appropriate
+                    <p>The College of Law at Pagadian Capitol College is recognized and accredited by the appropriate
                         regulatory bodies. It adheres to rigorous standards of legal education, ensuring that our
                         programs meet the highest academic and professional requirements.</p>
                 </div>
@@ -167,7 +182,7 @@
                     <div class="section-heading">
                         <h3>Notable Achievements</h3>
                     </div>
-                    <p>Over the years, the College of Law at Pagadian City College has achieved several significant
+                    <p>Over the years, the College of Law at Pagadian Capitol College has achieved several significant
                         milestones. Our alumni have excelled in various legal professions, demonstrating their
                         competence and commitment to justice. Our faculty members are accomplished legal scholars,
                         practitioners, and experts who have contributed to the advancement of legal knowledge through
