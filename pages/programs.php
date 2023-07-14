@@ -20,7 +20,7 @@
         <section class="section-nav">
             <nav class="navbar navbar-expand-lg fixed-top px-5 py-2">
                 <div class="container-fluid d-flex">
-                    <div class="zoom"><a class="navbar-brand" href="../">
+                    <div class="zoom"><a class="navbar-brand" href="./">
                             <img src="../img/navbar/navbarlogo.png">
                         </a>
                     </div>
@@ -71,11 +71,11 @@
         </section>
     </header>
 
-    <?php include "../sections/header-whoweare.php"; ?>
+    </section>
 
-    <?php include "../sections/lists-about.php"; ?>
+    <?php include "../sections/header-programs.php"; ?>
 
-    <?php include "../sections/lists-about2.php"; ?>
+    <?php include "../sections/lists-courses.php"; ?>
 
     <?php include "../sections/inquire.php"; ?>
 
@@ -162,9 +162,6 @@
         </div>
     </footer>
 
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="../dist/js/swiper.js"></script>
     <script src="../dist/js/bootstrap.bundle.js"></script>
 
 </body>

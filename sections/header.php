@@ -29,7 +29,7 @@
                                     <a class="nav-link" href="./pages/about.php"><span class="fnt-clr">About us</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
-                                    <a class="nav-link" href="#"><span class="fnt-clr">Programs</span></a>
+                                    <a class="nav-link" href="./pages/programs.php"><span class="fnt-clr">Programs</span></a>
                                 </li>
                                 <li class="nav-item p-2 zoom">
                                     <a class="nav-link" href="#"><span class="fnt-clr">Faculty</span></a>

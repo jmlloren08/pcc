@@ -6,7 +6,7 @@
                         <h2 class="text-white text-uppercase mb-3">Who We Are</h2>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item">
-                                <a href="./" class="text-uppercase text-white active">Home</a>
+                                <a href="../" class="text-uppercase text-white active">Home</a>
                             </li>
                             <li class="breadcrumb-item text-white active">About Us</li>
                         </ol>

@@ -8,7 +8,7 @@ include_once('./db_connect.php');
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = $_POST['user'];
     $pass = $_POST['pass'];
-    $sql = "SELECT * FROM tbl_admin WHERE user = '$user' AND pass = '$pass'";
+    $sql = "SELECT * FROM tbl_users WHERE user = '$user' AND pass = '$pass'";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
     $row = $stmt->rowCount();
