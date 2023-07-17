@@ -20,7 +20,7 @@
         <section class="section-nav">
             <nav class="navbar navbar-expand-lg fixed-top px-5 py-2">
                 <div class="container-fluid d-flex">
-                    <div class="zoom"><a class="navbar-brand" href="./">
+                    <div class="zoom"><a class="navbar-brand" href="../">
                             <img src="../img/navbar/navbarlogo.png">
                         </a>
                     </div>

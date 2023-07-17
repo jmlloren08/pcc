@@ -8,20 +8,8 @@
                         <li class="breadcrumb-item">
                             <a href="../" class="text-uppercase text-white active">Home</a>
                         </li>
-                        <li class="breadcrumb-item text-white active">Courses</li>
+                        <li class="breadcrumb-item text-white active">Programs</li>
                     </ol>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section ptb_100">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <div class="section-heading text-center m-0">
-                    <h2 class="text-grey">Programs</h2>
                 </div>
             </div>
         </div>
